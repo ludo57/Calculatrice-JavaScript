@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculatrice</title>
+</head>
+
+<body>
+    <div class="calculatrice">
+        <div id="ecran"></div>
+        <div class="touches">
+            <button onclick="C()" id="C">C</button>
+            <button onclick="ajoutTexte('(')" id="(">(</button>
+            <button onclick="ajoutTexte(')')" id=")">)</button>
+            <button onclick="ajoutTexte('/')" id="/">/</button>
+            <button onclick="ajoutTexte('7')" id="7">7</button>
+            <button onclick="ajoutTexte('8')" id="8">8</button>
+            <button onclick="ajoutTexte('9')" id="9">9</button>
+            <button onclick="ajoutTexte('*')" id="*">*</button>
+            <button onclick="ajoutTexte('4')" id="4">4</button>
+            <button onclick="ajoutTexte('5')" id="5">5</button>
+            <button onclick="ajoutTexte('6')" id="6">6</button>
+            <button onclick="ajoutTexte('-')" id="-">-</button>
+            <button onclick="ajoutTexte('1')" id="1">1</button>
+            <button onclick="ajoutTexte('2')" id="2">2</button>
+            <button onclick="ajoutTexte('3')" id="3">3</button>
+            <button onclick="ajoutTexte('+')" id="+">+</button>
+            <button onclick="CE()" id="CE">CE</button>
+            <button onclick="ajoutTexte('0')" id="0">0</button>
+            <button onclick="supp()" id="supp">&larr;</button>
+            <button onclick="resultat()" id="=">=</button>
+            <button onclick="ajoutTexte('.')" id="virgule">.</button>
+        </div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+
+</html>
